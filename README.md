@@ -172,4 +172,3 @@ You can delete commands from Bashhub through interactive search by pressing `Del
 Feel free to post in:
 https://github.com/eddict/bashhub-client/issues
 
-You can also get support and follow updates [@Bashhub](https://twitter.com/bashhub) on Twitter.
