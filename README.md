@@ -17,7 +17,7 @@ Bashhub saves every terminal command entered across all sessions and systems and
 
 # Quick Install
 ```shell
-curl -o setup -L https://raw.githubusercontent.com/Eddict/bashhub-client/refs/heads/master/install-bashhub.sh && $SHELL setup
+curl -o setup -L https://raw.githubusercontent.com/eddict/bashhub-client/refs/heads/master/install-bashhub.sh && $SHELL setup
 ```
 For non default login shells, just specify the shell e.g. (`bash setup`, `zsh setup`, `fish setup`)
 
