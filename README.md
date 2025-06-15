@@ -2,14 +2,14 @@
 
 Bashhub saves every terminal command entered across all sessions and systems and provides powerful querying across all commands.
 
-[![Build Status](https://github.com/rcaloras/bashhub-client/actions/workflows/main.yml/badge.svg)](https://github.com/rcaloras/bashhub-client/actions/)
+[![Build Status](https://github.com/eddict/bashhub-client/actions/workflows/main.yml/badge.svg)](https://github.com/eddict/bashhub-client/actions/)
 [![GitHub version](https://badge.fury.io/gh/rcaloras%2Fbashhub-client.svg)](https://badge.fury.io/gh/rcaloras%2Fbashhub-client)
 
 ### Features
 - Super command search by using context about how commands are executed.
   - e.g. the directory, session, system, exit status, etc.
 - Unlimited detailed terminal history stored in the cloud.
-  - [Stored privately and encrypted at rest](https://github.com/rcaloras/bashhub-client/wiki/Security-and-Privacy).
+  - [Stored privately and encrypted at rest](https://github.com/eddict/bashhub-client/wiki/Security-and-Privacy).
 - Support across systems. Access your terminal history from anywhere!
 - Support for Bash and Zsh with a sweet cli for everything.
 
@@ -22,7 +22,7 @@ curl -OL https://bashhub.com/setup && $SHELL setup
 For non default login shells, just specify the shell e.g. (`bash setup`, `zsh setup`, `fish setup`)
 
 Detailed installation instructions can be found at
-https://github.com/rcaloras/bashhub-client/wiki/Install
+https://github.com/eddict/bashhub-client/wiki/Install
 
 # Usage
 Bashhub can be accessed from the command line in a couple ways:
@@ -170,6 +170,6 @@ You can delete commands from Bashhub through interactive search by pressing `Del
 
 ## Feature Requests, Bugs, and Issues
 Feel free to post in:
-https://github.com/rcaloras/bashhub-client/issues
+https://github.com/eddict/bashhub-client/issues
 
 You can also get support and follow updates [@Bashhub](https://twitter.com/bashhub) on Twitter.

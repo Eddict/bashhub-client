@@ -3,7 +3,7 @@ Thanks for contributing to Bashhub! This file outlines several best practices wh
 
 ## Pull Requests
 Simple changes can be submitted directly as PRs against Master. Major pull requests and new features should be submitted against the current development branch. Checkout a copy of the next version which is postfixed with `-dev`.
-The latest development version can be found on https://github.com/rcaloras/bashhub-client/branches.
+The latest development version can be found on https://github.com/eddict/bashhub-client/branches.
 
 ## Dev Environment Setup
 You should be able to develop and execute Bashhub's client locally as well as run its unit tests. This typically involves cloning the repo and setting up a virtualenv to develop with. 
@@ -12,7 +12,7 @@ Bashhub is currently setup as Python 2 project built with setuptools.
 ```bash
 # setup and clone our repo locally
 mkdir ~/git/ && cd ~/git
-git clone git@github.com:rcaloras/bashhub-client.git
+git clone git@github.com:eddict/bashhub-client.git
 cd ~/git/bashhub-client
 ```
 Setup a new Python 3 [venv](https://docs.python.org/3/library/venv.html) (virtual environment). 
@@ -27,8 +27,8 @@ pip install -e ".[test]"
 
 This should setup the project locally. Output should look something like:
 ```bash
-[rcaloras:~/git/bashhub-client] [bashhub_dev] master ± pip install -e ".[test]"
-Obtaining file:///Users/rcaloras/git/bashhub-client
+[eddict:~/git/bashhub-client] [bashhub_dev] master ± pip install -e ".[test]"
+Obtaining file:///Users/eddict/git/bashhub-client
 Collecting requests==1.2.3 (from bashhub===-version-)
   Using cached requests-1.2.3.tar.gz
 Collecting jsonpickle==0.7.0 (from bashhub===-version-)
@@ -43,16 +43,16 @@ From within this virtualenv `bh` and `bashhub` exectuables should now be wired u
 
 ```bash
 # bashhub and bh exectuables point to our current dev env
-[rcaloras:~/git/bashhub-client] [bashhub_dev] master ± which bashhub
-/Users/rcaloras/Envs/bashhub_dev/bin/bashhub
-[rcaloras:~/git/bashhub-client] [bashhub_dev] master ± which bh
-/Users/rcaloras/Envs/bashhub_dev/bin/bh
+[eddict:~/git/bashhub-client] [bashhub_dev] master ± which bashhub
+/Users/eddict/Envs/bashhub_dev/bin/bashhub
+[eddict:~/git/bashhub-client] [bashhub_dev] master ± which bh
+/Users/eddict/Envs/bashhub_dev/bin/bh
 
 # pytest should run locally against our repo
-[rcaloras:~/git/bashhub-client] [bashhub_dev] master ± pytest
+[eddict:~/git/bashhub-client] [bashhub_dev] master ± pytest
 ============= test session starts =================
 platform darwin -- Python 3.10.12, pytest-7.4.2, pluggy-1.3.0
-rootdir: /Users/rcaloras/git/bashhub-client, inifile:
+rootdir: /Users/eddict/git/bashhub-client, inifile:
 collected 10 items
 
 tests/test_bashhub.py ..                                                                                                                                                                             [ 20%]

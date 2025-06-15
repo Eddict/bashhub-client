@@ -184,7 +184,7 @@ def update(version):
     """Update your Bashhub installation"""
 
     if version != '':
-        github = "https://github.com/rcaloras/bashhub-client/archive/{0}.tar.gz".format(
+        github = "https://github.com/eddict/bashhub-client/archive/{0}.tar.gz".format(
             version)
         response = requests.get(github)
         if response.status_code != 200:

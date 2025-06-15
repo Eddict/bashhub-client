@@ -250,7 +250,7 @@ setup_bashhub_files() {
 
     # Grab the code from master off github.
     echo "Pulling down bashhub-client from ${github_branch} branch"
-    curl -sL https://github.com/rcaloras/bashhub-client/archive/${github_branch}.tar.gz -o client.tar.gz
+    curl -sL https://github.com/eddict/bashhub-client/archive/${github_branch}.tar.gz -o client.tar.gz
     tar -xf client.tar.gz
     cd bashhub-client*
 
